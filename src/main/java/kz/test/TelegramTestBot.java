@@ -25,8 +25,8 @@ import java.util.regex.Pattern;
 
 public class TelegramTestBot extends TelegramLongPollingBot {
 
-    private final String USERNAME = "Test_SimpleBot";
-    private final String TOKEN = "1954263424:AAEpEPy1q6WDTFaXbMgC_2xQt5Wh50RZczE";
+    private static final String USERNAME = "Test_SimpleBot";
+    private static final String TOKEN = "1954263424:AAEpEPy1q6WDTFaXbMgC_2xQt5Wh50RZczE";
     private static Document doc;
     private static String doubleCheck = "([0-9]*)\\.([0-9]*)";
     private static boolean open_usd = false, open_eur = false, open_rub = false;
